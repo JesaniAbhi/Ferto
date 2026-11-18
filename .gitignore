@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Build outputs
+dist/
+frontend/dist/
+dist-ssr/
+backend/target/
+
+# Python virtual environment & cache
+venv/
+ml-model/venv/
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment & local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Archive / compressed bundles
+ferto.tar.gz
+*.tar.gz
+*.zip
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor & IDE files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store

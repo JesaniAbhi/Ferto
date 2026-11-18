@@ -1,0 +1,61 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: ferto-db
+    environment:
+      POSTGRES_DB: fertodb
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres123
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      # Mount the renamed schema and data files so they load in alphabetical order
+      - ./database:/docker-entrypoint-initdb.d
+    restart: always
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d fertodb"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  ml-model:
+    build: ./ml-model
+    container_name: ferto-ml-model
+    ports:
+      - "8000:8000"
+    restart: always
+
+  backend:
+    build: ./backend
+    container_name: ferto-backend
+    ports:
+      - "8080:8080"
+    depends_on:
+      db:
+        condition: service_healthy
+      ml-model:
+        condition: service_started
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/fertodb
+      - SPRING_DATASOURCE_DRIVER_CLASS_NAME=org.postgresql.Driver
+      - SPRING_DATASOURCE_USERNAME=postgres
+      - SPRING_DATASOURCE_PASSWORD=postgres123
+      - SPRING_JPA_DATABASE_PLATFORM=org.hibernate.dialect.PostgreSQLDialect
+      - FERTO_ML_SERVICE_URL=http://ml-model:8000
+      - FERTO_WEATHER_API_KEY=YOUR_OPENWEATHERMAP_API_KEY
+    restart: always
+
+  frontend:
+    build: ./frontend
+    container_name: ferto-frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    restart: always
+
+volumes:
+  postgres_data:

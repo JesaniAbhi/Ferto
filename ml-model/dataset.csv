@@ -1,0 +1,62 @@
+N,P,K,pH,moisture,organic_carbon,soil_type,crop_type,location,temperature,humidity,rainfall,crop_yield,fertilizer,quantity
+37,0,0,7.0,38,0.56,Sandy,Maize,Karnataka,26,52,63,1.72,Urea,50 kg/acre
+12,36,0,6.7,45,0.38,Loamy,Sugarcane,Maharashtra,29,52,148,24.02,DAP,75 kg/acre
+35,0,0,7.1,46,0.36,Clayey,Paddy,West Bengal,28,54,265,1.26,Urea,50 kg/acre
+12,13,10,7.6,35,0.76,Sandy,Barley,Punjab,26,52,73,0.95,NPK 19-19-19,100 kg/acre
+9,10,0,6.7,64,0.87,Red,Cotton,Maharashtra,25,50,149,0.78,NPK 19-19-19,100 kg/acre
+41,0,0,6.7,50,0.59,Loamy,Wheat,Punjab,33,64,61,1.04,Urea,50 kg/acre
+13,40,0,7.6,28,0.8,Clayey,Pulses,Gujarat,27,54,50,1.27,DAP,75 kg/acre
+14,12,15,7.2,48,0.67,Sandy,Maize,Karnataka,31,62,87,1.63,NPK 19-19-19,100 kg/acre
+36,0,0,6.6,65,0.47,Loamy,Cotton,Maharashtra,25,50,95,0.79,Urea,50 kg/acre
+14,41,0,7.1,31,0.67,Red,Ground Nuts,Gujarat,26,52,72,1.41,DAP,75 kg/acre
+10,14,13,6.6,49,0.91,Black,Sugarcane,Maharashtra,31,62,138,21.34,NPK 19-19-19,100 kg/acre
+38,0,0,6.6,34,0.59,Clayey,Pulses,Gujarat,33,64,45,1.33,Urea,50 kg/acre
+39,0,0,6.9,65,0.91,Black,Cotton,Maharashtra,28,54,82,0.73,Urea,50 kg/acre
+13,36,0,5.8,52,0.1,Loamy,Wheat,Punjab,29,58,59,1.17,DAP,75 kg/acre
+10,9,0,5.9,44,0.76,Sandy,Millets,Karnataka,30,60,99,0.98,NPK 19-19-19,100 kg/acre
+12,12,14,6.5,53,0.62,Loamy,Sugarcane,Maharashtra,34,65,138,23.24,NPK 19-19-19,100 kg/acre
+11,37,0,6.3,33,0.54,Red,Tobacco,Karnataka,35,68,75,0.72,DAP,75 kg/acre
+36,0,0,7.0,37,0.62,Black,Millets,Karnataka,28,54,58,0.98,Urea,50 kg/acre
+13,10,0,6.3,39,0.2,Clayey,Paddy,West Bengal,33,64,239,1.4,NPK 19-19-19,100 kg/acre
+38,0,0,6.1,30,0.56,Loamy,Sugarcane,Maharashtra,32,62,146,20.52,Urea,50 kg/acre
+12,39,0,7.5,32,0.67,Black,Oil Seeds,Gujarat,37,70,58,1.32,DAP,75 kg/acre
+14,13,0,6.7,36,0.9,Clayey,Pulses,Gujarat,26,52,59,1.21,NPK 19-19-19,100 kg/acre
+12,40,0,6.8,27,0.5,Loamy,Sugarcane,Maharashtra,30,60,131,22.54,DAP,75 kg/acre
+39,0,0,6.1,38,0.44,Clayey,Paddy,West Bengal,34,65,277,1.54,Urea,50 kg/acre
+41,0,0,6.5,35,0.5,Black,Millets,Karnataka,28,54,78,0.94,Urea,50 kg/acre
+12,41,0,6.9,37,0.78,Clayey,Paddy,West Bengal,37,70,231,1.61,DAP,75 kg/acre
+15,11,14,6.2,26,0.67,Red,Ground Nuts,Gujarat,25,50,79,1.33,NPK 19-19-19,100 kg/acre
+15,37,0,7.0,34,0.49,Sandy,Millets,Karnataka,29,58,40,1.07,DAP,75 kg/acre
+13,13,0,6.5,30,0.7,Clayey,Pulses,Gujarat,27,54,50,1.27,NPK 19-19-19,100 kg/acre
+35,0,0,6.7,60,0.62,Black,Sugarcane,Maharashtra,34,65,136,22.57,Urea,50 kg/acre
+10,35,0,6.5,42,0.79,Sandy,Barley,Punjab,35,67,64,1.07,DAP,75 kg/acre
+12,8,0,7.7,32,0.46,Black,Oil Seeds,Gujarat,26,52,89,1.17,NPK 19-19-19,100 kg/acre
+41,0,0,6.8,29,0.53,Red,Ground Nuts,Gujarat,30,60,62,1.34,Urea,50 kg/acre
+13,14,0,6.3,33,0.52,Black,Oil Seeds,Gujarat,36,68,70,1.22,NPK 19-19-19,100 kg/acre
+40,0,0,7.2,38,0.31,Clayey,Pulses,Gujarat,28,54,69,1.16,Urea,50 kg/acre
+12,42,0,6.2,47,0.66,Sandy,Barley,Punjab,30,60,81,1.12,DAP,75 kg/acre
+11,15,12,6.9,63,0.65,Red,Cotton,Maharashtra,31,62,86,0.73,NPK 19-19-19,100 kg/acre
+38,0,0,5.8,54,0.6,Loamy,Wheat,Punjab,34,65,99,1.25,Urea,50 kg/acre
+8,15,0,6.1,37,0.55,Sandy,Millets,Karnataka,29,58,55,1.04,NPK 19-19-19,100 kg/acre
+11,15,13,6.9,56,0.32,Loamy,Sugarcane,Maharashtra,25,50,139,24.55,NPK 19-19-19,100 kg/acre
+15,37,0,7.2,34,0.52,Red,Ground Nuts,Gujarat,32,62,88,1.32,DAP,75 kg/acre
+36,0,0,6.9,41,0.53,Clayey,Paddy,West Bengal,28,54,151,1.26,Urea,50 kg/acre
+13,9,0,6.7,49,0.44,Loamy,Wheat,Punjab,30,60,40,1.23,NPK 19-19-19,100 kg/acre
+37,0,0,6.6,35,0.57,Black,Oil Seeds,Gujarat,27,53,87,1.26,Urea,50 kg/acre
+15,40,0,6.1,62,0.68,Red,Cotton,Maharashtra,36,68,91,0.89,DAP,75 kg/acre
+9,13,0,6.4,57,0.98,Black,Sugarcane,Maharashtra,34,65,148,24.12,NPK 19-19-19,100 kg/acre
+10,14,0,6.6,38,0.63,Sandy,Millets,Karnataka,30,60,76,1.02,NPK 19-19-19,100 kg/acre
+39,0,0,7.3,32,0.65,Red,Tobacco,Karnataka,31,62,71,0.61,Urea,50 kg/acre
+42,0,0,7.0,34,0.59,Black,Oil Seeds,Gujarat,27,53,98,1.25,Urea,50 kg/acre
+13,39,0,5.9,31,0.22,Red,Ground Nuts,Gujarat,33,64,94,1.45,DAP,75 kg/acre
+10,15,0,7.0,59,0.59,Loamy,Sugarcane,Maharashtra,27,53,88,21.41,NPK 19-19-19,100 kg/acre
+14,38,0,6.6,63,0.61,Red,Cotton,Maharashtra,34,65,98,0.76,DAP,75 kg/acre
+41,0,0,6.5,40,1.09,Sandy,Millets,Karnataka,30,60,87,0.97,Urea,50 kg/acre
+14,35,0,7.1,65,0.56,Black,Cotton,Maharashtra,29,58,82,0.88,DAP,75 kg/acre
+11,9,0,7.3,59,0.66,Loamy,Sugarcane,Maharashtra,26,52,99,22.77,NPK 19-19-19,100 kg/acre
+35,0,0,7.3,30,0.59,Black,Millets,Karnataka,27,53,63,0.97,Urea,50 kg/acre
+11,38,0,6.4,61,0.37,Loamy,Cotton,Maharashtra,29,58,133,0.74,DAP,75 kg/acre
+41,0,0,6.6,41,0.83,Red,Ground Nuts,Gujarat,36,68,95,1.31,Urea,50 kg/acre
+39,0,0,7.0,51,0.75,Loamy,Wheat,Punjab,38,72,72,1.26,Urea,50 kg/acre
+15,41,0,7.3,43,0.76,Sandy,Millets,Karnataka,36,60,63,0.95,DAP,75 kg/acre
+12,10,0,6.6,57,0.42,Black,Sugarcane,Maharashtra,29,58,115,22.08,NPK 19-19-19,100 kg/acre

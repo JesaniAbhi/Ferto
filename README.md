@@ -35,8 +35,8 @@ Ensure [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docke
 
 1. **Clone the repository:**
    ```bash
-   git clone <REPO_URL>
-   cd ferto
+   git clone https://github.com/JesaniAbhi/Ferto.git
+   cd Ferto
    ```
 
 2. **Start all services:**
@@ -59,6 +59,17 @@ Detailed documentation is available in the [`docs/`](./docs) folder:
 - [Software Requirements Specification (SRS)](./docs/SRS.md)
 - [User Manual](./docs/User_Manual.md)
 - [AWS Deployment Guide](./docs/AWS_Deployment.md)
+
+---
+
+## 👥 Team Members
+
+| Name | Role | GitHub |
+| :--- | :--- | :--- |
+| Team Member 1 | Project Lead / Full-Stack | [@JesaniAbhi](https://github.com/JesaniAbhi) |
+| Team Member 2 | Member | - |
+| Team Member 3 | Member | - |
+| Team Member 4 | Member | - |
 
 ---
 
